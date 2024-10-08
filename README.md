@@ -218,11 +218,143 @@ Alternate key is a candidate key, currently not selected as a primary key of the
 - SQL - Drop, Delete, Truncate, Rename
 - SQL – Alter tables, Update tables, Drop tables, Delete tables, Truncate tables
 
-Answers here [SQL.RESULTS] 
+Answers here [SQL.RESULTS](
 
 
-- PowerBi - For Data Visualization and Dashboard building
-- Github - For Portolio Building
+## Github
+Setting Up a GitHub Account for Data Analysis Portfolio Building
 
+## INTRODUCTION
+GitHub is an invaluable tool for data analysts to effectively manage and collaborate on their portfolio projects. It is a  cloud-based platform for version control and collaboration.
+
+- Portfolio Showcase:
+- Host data analysis projects publicly for potential employers or clients to view.Demonstrate technical skills and problem-solving abilities.
+- Showcase project outcomes and insights.
+  
+Collaboration Platform:
+- Facilitate collaboration with other data analysts or developers.
+- Receive feedback and contributions from the community.
+- Contribute to open-source projects.
+
+  Project Management:
+- Use GitHub's features (issues, pull requests, milestones) to manage project tasks and track progress.
+- Collaborate on project planning and execution.
+- By effectively utilizing Git and GitHub, data analysts can build robust and impressive portfolios that highlight their skills, experience, and contributions to the field
+
+  ## Creating a GitHub Account
+
+ ### Step-by-Step Guide:
+- Visit github.com
+- Sign up for a free account
+- Choose a username and password
+- Customize your profile (optional)
+
+## Understanding Repositories
+
+What is a Repository? A container for your project files.
+
+- Creating a Repository:
+- Click the "+" button
+- Choose "New repository"
+- Give your repository a name and description
+- Initialize with a README file (optional)
+
+## Adding Files to Your Repository
+
+- Uploading Files:
+- Click the "Add file" button
+- Choose "Upload files"
+- Select the files you want to add
+- Creating Files:
+- Click the "Add file" button
+- Choose "Create new file"
+- Enter the file name and content
+
+ ## Collaborating with Others
+
+ - Pull Requests:
+- Create a pull request to suggest changes to someone else's repository
+- Review and merge pull requests
+
+- Issues:
+Track bugs, tasks, and feature requests
+
+
+## Ms POWER BI:  STEP BY STEP GUIDE (INSTALLATIONS AND INTRODUCTION)
+
+The easiest way to install Power Bi is through Miscrosoft Store.
+
+## INTRODUCTION
+Power BI is a data visualization and business intelligence tool that converts data from different data sources to interactive dashboards and BI reports. It is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
+
+### Power BI suite provides multiple software, connectors, and services such as : –
+- Power BI desktop
+- Power BI service: This is based on SaaS
+- Power BI Mobile Apps: This is available for different platforms. 
+
+Generally, these set of services are used by business users to consume data and build Business Intelligence reports
+
+Power BI as seen used in visualizing data gotten from different data sources such as Web, Access, SQL, tables and cloud.
+
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/54fd0bd3-3e6a-42d8-93d0-746b72742044">
+
+
+## Components of Power BI
+### Power BI includes the following components;
+
+- Power BI Desktop: This is used to create reports and data visualizations on the dataset.
+- Power BI Gateway − You can use Power BI on-premises gateway to keep your data fresh by connecting to your on-premises data sources without the need to move the data. It allows you to query large datasets and benefit from the existing investments
+- Power BI Mobile Apps: − Using Power BI mobile apps, you can stay connected to their data from anywhere. Power BI apps are available for Windows, iOS, and Android platforms.
+- Power BI Service − This is a cloud service and is used to publish Power BI reports and data visualizations.
+
+## Supported Dta Source
+
+    Power BI supports a large range of data sources. You can click Get data and it shows you all the available data connections. It allows you to connect to different flat files, SQL database, and Azure cloud or even web platforms such as Facebook, Google Analytics, and Salesforce objects. It also includes an ODBC connection to connect to other ODBC data sources, which are not listed.
+
+
+<img width="525" alt="image" src="https://github.com/user-attachments/assets/a20f373b-dbeb-4c9f-952f-4f6d14f9bf59">
+
+## Power BI - Comparison with Other BI Tools
+There are many Business Intelligence tools such as Tableau, Power BI and SSRS among others but a major competitive value as a result of market evaluation exist between Power BI and Tableau and some of this arguments will be highlighted below.
+
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/24f8d0c4-1236-431a-8490-8d67f8f702c2">
+
+## Power BI - Data Modelling
+Data Modeling is one of the features used to connect multiple data sources in BI tool using a relationship. A relationship defines how data sources are connected with each other and you can create interesting data visualizations on multiple data sources.This allows businesses to define new metrics and to perform custom calculations for those metrics.
+
+## Power BI Visualization Options
+### Creating Simple Visualizations
+Visualizations are used to effectively present your data and are the basic building blocks of any business intelligence tool. Power BI contains various default data visualization components that include simple bar charts to pie charts to maps, and also complex models such as waterfalls, funnels, gauges, and many other components.
+
+In Power BI, you can create visualization in two ways. First is by adding from the right side pane to Report Canvas. By default, it is the table type visualization, which is selected in Power BI. Another way is to drag the fields from right side bar to the axis and value axis under Visualization. You can add multiple fields to each axis as per the requirement.
+In Power BI, it is also possible to move your visualization on the reporting canvas by clicking and then dragging it. You can also switch between different type of charts and visualizations from the Visualization pane. Power BI attempts to convert your selected fields to the new visual type as closely as possible.
+
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/59b2c99f-10cb-4109-a8cd-d4d94b9fd2ce">
+
+
+- STEP 1: DEFINE QUESTIONS & GOALS
+- STEP 2: COLLECT DATA
+- STEP 3: DATA WRANGLING
+- STEP 4: DETERMINE ANALYSIS
+- STEP 5: INTERPRET RESULTS
+
+## DAX Function
+
+DAX functions play an important role in the usage of DAX for data modeling and reporting. It is an inbuilt function provided in the DAX language that helps you perform commonly used data calculations on the Data Model. DAX has additional functions that are designed to work with relational data and perform dynamic aggregation. 
+
+DAX is a formula language and is a collection of functions, operators, and constants that can be used in a formula or expression to calculate and return one or more values. DAX is the formula language associated with the Data Model of Microsoft Excel Power Pivot and with Microsoft Power BI.
+
+However, it is a formula language that allows the users to define custom calculations in calculated columns and calculated fields (also known as measures). DAX helps you create new information from the existing data in your data model. 
+
+
+## Similarities Between Excel Functions and DAX Functions
+Certain DAX functions have the same name and the same general behavior as Excel functions.
+DAX has lookup functions that are similar to the array and vector lookup functions in Excel.
+
+### Differences Between Excel Functions and DAX Functions
+- DAX functions have been modified to take different types of inputs and some of the DAX functions might return a different data type. Hence, you need to understand the usage of these functions separately though they have the same name.
+- You cannot use DAX functions in an Excel formula or use Excel functions in DAX formula, without the required modifications.
+- Excel functions take a cell reference or a range of cells as a reference. DAX functions never take a cell reference or a range of cells as a reference, but instead take a column or table as a reference.
+- Excel date and time functions return an integer that represents a date as a serial number. DAX date and time functions return a datetime data type that is in DAX but not in Excel
 
 
