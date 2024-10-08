@@ -78,6 +78,148 @@ its own data types.
 - But in databases tables, all the data in a column must be of the same type.
 - This makes performing analysis on database tables pretty simples, while the data type must be consistent
 
+### Basic SQL Command 
+
+#### SQL Commands
+
+- SQL commands are instructions. It is used to communicate with the database.
+- It is also used to perform specific tasks, functions, and queries of data. 
+- SQL can perform various tasks like create a table, add data to tables, drop the table, modify the table, set permission 
+for users.
+
+#### Types of SQL Commands 
+##### There are five types of SQL commands: 
+- DDL: Data Definition Language
+- DML: Data Manipulation Language
+- DCL: Data Control Language
+- TCL: Transaction Control Language
+- DQL: Data Query Language
+
+  <img width="913" alt="image" src="https://github.com/user-attachments/assets/413a18d8-58b0-4e5a-b895-d0aba8cc201f">
+
+## Data Definition Language (DDL) 
+
+DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc. 
+All the command of DDL are auto-committed that means it permanently save all the changes in the database
+
+- Create: It is used to create a new table in the database.
+- Drop: It is used to delete both the structure and record stored in the table.
+- Alter: It is used to alter the structure of the database. This change could be either to modify the characteristics of an 
+existing attribute or probably to add a new attribute.
+- Truncate: It is used to delete all the rows from the table and free the space containing the table.
+
+  <img width="302" alt="image" src="https://github.com/user-attachments/assets/f24bcdbd-5f31-4f96-a17c-7e096895fb3d">
+
+## Data Manipulation Language (DML)
+- DML commands are used to modify the database. It is responsible for all form of 
+CHANGES in the database. 
+- The command of DML is not auto-committed that means it can't permanently save all 
+the changes in the database. They can be rollback.
+
+### Here are some commands that come under DML: 
+➢ INSERT
+➢ UPDATE
+➢ DELETE 
+
+- Insert: The INSERT statement is a SQL query. It is used to insert data into the row of a table.
+- Update: This command is used to update or modify the value of a column in the table.
+- Delete: The delete statement is used to delete existing records in a table
+
+## Data Control Language (DCL)
+DCL commands are used to GRANT and TAKE BACK authority from any database user.
+### Here are some commands that come under DCL: 
+➢Grant 
+➢Revoke
+
+- Grant: It is used to give user access privileges to a database.
+- Revoke: It is used to take back permissions from the user.
+  
+## Data Query Language (DQL)
+DQL is used to fetch the data from the database. It uses only one command.
+
+- Select: This is the same as the projection operation of relational algebra.
+It is used to select the attribute based on the condition described by WHERE clause
+
+- Syntax: 
+SELECT expressions FROM TABLES WHERE conditions; 
+Example: 
+SELECT emp_name FROM employee WHERE age > 20
+
+## Transaction Control Language (TCL)
+TCL commands are used to manage transactions in the database. These are used to manage the changes made DML 
+Statement (INSERT, DELETE and UPDATE only). It also allows statements to be grouped into logical transactions
+
+### Here are some commands that come under TCL:
+➢ COMMIT 
+➢ ROLLBACK 
+➢ SAVEPOINT
+
+- COMMIT .
+Commit command is used to permanently save any transaction.
+Commit command is used to save all the transactions to the database. 
+
+Example: 
+- DELETE FROM CUSTOMERS WHERE AGE = 25
+- COMMIT;
+
+- Rollback:
+This command restores the database to last committed state. 
+Rollback command is used to undo transactions that have not already been saved to the database. 
+- Example: DELETE FROM CUSTOMERS WHERE AGE = 25;
+- ROLLBACK;
+
+- Savepoint: It is used to roll the transaction back to a certain point without rolling back the entire transaction. 
+Savepoint command is used to temporarily save a transaction so that you can rollback to that point whenever necessary.
+
+<img width="843" alt="image" src="https://github.com/user-attachments/assets/7128a4fd-3e6f-4d52-811e-b81577306220">
+
+<img width="890" alt="image" src="https://github.com/user-attachments/assets/a295490e-3e12-45d4-bbec-bab53225ce83">
+
+## Primary Key: 
+A special type of key that uniquely identifies each record in a table. Each table can have only one primary key.
+- Example: Employee_id in the Employee table.
+
+## Foreign Key:
+A field in one table that uniquely identifies a row of another table, creating a relationship between the two tables.
+- Example: Employee_id in the Salary table is a foreign key (FK) that references the Employee_id in the Employee table 
+(PK)
+
+## Surrogate Key:
+A surrogate key is a unique identifier for each record in a table, typically created by the database itself (e.g an autoincrementing integer)
+
+<img width="822" alt="image" src="https://github.com/user-attachments/assets/53aab4b2-fd5d-4a7d-8b2c-aa64960ff6bb">
+
+## Composite Key:
+Composite key (also known as compound key concatenated key) is a group of two or more columns that identifies each 
+row of a table uniquely.
+-Example: In salary tables, Employee_id and Salary_month_year are combined to identify each row uniquely in salary 
+table.
+
+## Candidate Key:
+Candidate key is a key of a table which can be selected as primary key. A table can have multiple candidate keys, out of 
+which one can be selected as a primary key. 
+- Example: Employee_id, License_Number, and Passport_Number
+
+## Alternate key:
+Alternate key is a candidate key, currently not selected as a primary key of the table
+- Example: License_Number and Passport_Number
+
+
+<img width="839" alt="image" src="https://github.com/user-attachments/assets/cb6e62ff-5dc1-47ef-8ced-4bc8d1be504f">
+
+## Pratical Exercise
+
+## Writing SQL Queries 
+- Introduction to SQL Queries ( Create first Database)
+- SQL - Data Types
+- SQL - Create table
+- SQL - Keys: Unique keys, Primary Keys, Foreign Keys.
+- SQL - Insert into Table, select Table
+- SQL - Drop, Delete, Truncate, Rename
+- SQL – Alter tables, Update tables, Drop tables, Delete tables, Truncate tables
+
+Answers here 
+
 
 - PowerBi - For Data Visualization and Dashboard building
 - Github - For Portolio Building
