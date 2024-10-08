@@ -218,7 +218,7 @@ Alternate key is a candidate key, currently not selected as a primary key of the
 - SQL - Drop, Delete, Truncate, Rename
 - SQL – Alter tables, Update tables, Drop tables, Delete tables, Truncate tables
 
-Answers here 
+Answers here [SQL.RESULTS] 
 
 
 - PowerBi - For Data Visualization and Dashboard building
