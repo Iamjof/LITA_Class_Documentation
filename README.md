@@ -24,6 +24,19 @@ The data set was given by our tutors in persons of Mr Mushin and Mr Femi. Also, 
       
           
 - SQL - Structured Query Language for Quering data and Data manipulation
+
+##Introduction to SQL 
+• SQL stands for Structured Query Language. 
+• It is used for storing and managing data in Relational Database 
+Management System (RDBMS). 
+• It is a standard language for Relational Database System. It enables 
+a user to relate databases and tables. 
+• All the RDBMS like MySQL, PostgreSQL, Oracle, MS Access, and 
+SQL Server use SQL as their standard database language.
+• SQL allows users to query the database in a number of ways, using 
+English-like statements
+
+
 - PowerBi - For Data Visualization and Dashboard building
 - Github - For Portolio Building
 
